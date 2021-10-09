@@ -1,21 +1,26 @@
+import image1 from './media/image1.png';
+import image2 from './media/image2.png';
+import image3 from './media/image3.png';
+
+
 export const sliderItems = [
     {
       id: 1,
-      img: "./media/image1.png",
+      img: image1,
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "../media/image1.png",
+      img: image2,
       title: "AUTUMN COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://avatars.githubusercontent.com/u/65844836?v=4",
+      img: image3,
       title: "LOUNGEWEAR LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
@@ -67,7 +72,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://freepngimg.com/thumb/jacket/37126-9-jacket-transparent-image.png",
     },
     {
       id:8,

@@ -39,7 +39,7 @@ const Slide = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: rgba(${props=> props.bg*10},${props=> props.bg*20},${props=> props.bg*30},0.1);
+    background-color: #${props=> props.bg};
 `;
 
 const ImgContainer = styled.div`
@@ -96,7 +96,7 @@ const Slider = () => {
             </Arrow>
              <Wrapper slideIndex={slideIndex}>
                  {sliderItems.map((item)=>
-                    <Slide key={item.id} bg={item.id}>
+                    <Slide key={item.id} bg={item.bg}>
                         <ImgContainer>
                             <Image src={item.img}/>
                         </ImgContainer>

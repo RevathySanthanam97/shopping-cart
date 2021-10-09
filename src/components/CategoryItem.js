@@ -3,26 +3,41 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 flex: 1;
+margin: 3px;
+height: 70vh;
+position: relative;
 `
 
 const Image = styled.img`
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 `;
 
 const Info = styled.div`
-        flex: 1;
-        padding: 50px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 `;
 
 const Title = styled.h1`
-font-size: 70px;
+color: #ffffff;
+margin-bottom: 20px;
 `;
 
 const Button = styled.button`
+border: none;
 padding: 10px;
-font-size: 20px;
-background-color: transparent;
+color: gray;
+background-color: white;
 cursor: pointer;
+font-weight: 600;
 `;
 
 const CategoryItem = ({item}) => {
